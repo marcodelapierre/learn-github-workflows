@@ -8,7 +8,7 @@ on:
 jobs:
   hello_minimal:
     name: Hello_Minimal
-    runs-on: python:3.7
+    runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
