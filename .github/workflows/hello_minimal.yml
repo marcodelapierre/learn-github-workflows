@@ -1,0 +1,16 @@
+name: HELLO_MINIMAL
+
+on:
+#  push:
+#    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  hello_minimal:
+    name: Hello_Minimal
+    runs-on: python:3.7
+    timeout-minutes: 30
+
+    steps:
+    - name: Test Hello
+      run: echo "Hello World!"
